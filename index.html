@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escala de Trabalho</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="content">
+          <h2>Descuba seu dia de folga</h2>
+          <p>Digite aqui seu último dia trabalhado:</p>
+          <input type="date" id="start" />
+          <p>Digite aqui o dia desejado:</p>
+          <input type="date" id="end" />
+          <button onclick="checar()" id="execute">Verificar</button>
+          <h3>
+            <span></span>
+          </h3>
+        </div>
+      </div>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
